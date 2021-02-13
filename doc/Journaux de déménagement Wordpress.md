@@ -21,3 +21,10 @@ sudo  systemctl reload apache2
 ```
 mv ./dvmax.zonedns.education/* ./dvmax.xyz/
 ```
+## #1 - Modifier les entrés de la base de donnée selon le nouveau répertoire
+- [X] Exportation de la structure WordPress
+- [X] Exportation des données du site
+- [X] Drop des tables de la BDD WordPress
+- [X] Remplacement de "dvmax.zonedns.education" par "dvmax.xyz" dans le fichier de données exporté.
+- [X] Importation de la structure WordPress pour récupérer les tables.
+- [X] Importation des données.
